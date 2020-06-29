@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">  
+    <title>Jour5</title>
+</head>
+
+<body id="body">
+ 
+<button onclick=stock() value="5">Enregistrer</button>
+<button onclick=recup() value="Afficher LocalStorage" id="monboutton">Afficher LocalStorage</button>
+
+
+  <script>
+    //Etape1
+    
+    function stock()
+    {
+
+    var btn = document.querySelector('Button').value
+    localStorage.setItem('Bouton', btn);
+
+    }
+
+
+    //Etape2
+
+       function recup()
+       {
+        var btn = localStorage.getItem('Bouton');
+       
+        var newUL= document.createElement('ul');
+       
+        document.getElementById('body').appendChild(newUL);
+            
+        var i=0
+        newli=i
+
+          for (i; i < btn; i++)
+          {
+
+        newli = document.createElement('li');
+        newUL.appendChild(newli)
+        var newtext = document.createTextNode("hamoud_s et Sanche_d")
+    
+        newli.appendChild(newtext);
+              
+          }
+
+       }
+</script>
+
+<br />
+
+
+      <!-- Etape4 -->
+
+      <form action="fetch.php" method="GET">
+        <input type="text" id="monInput" name="username">
+        <button id="Bouton2" type="submit">Valider</button>
+      </form>
+</body>
+</html>
+
+

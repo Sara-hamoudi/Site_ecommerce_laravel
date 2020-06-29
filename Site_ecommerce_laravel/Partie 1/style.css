@@ -1,0 +1,161 @@
+body{
+    background: rosybrown;
+}
+#LOGIN{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width:400px;
+    margin-top:10%;
+    border-radius: 25px;
+    font-size: 20px;
+    
+}
+
+b
+{
+    font-style: italic;
+    color: aqua;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+h1
+{
+    font-style: italic;
+    font-size: 30px;
+    color: brown;
+}
+
+#LOGIN h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.deuxième_produit{
+        position: absolute;
+        left: 370px;
+        top: 0px;
+        margin-top: 7px;
+    }
+
+ .troisième_produit{
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    margin-top: 7px;
+}
+.quatrième_produit{
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+    margin-top: 7px;
+}
+.sixième_produit{
+    position: absolute;
+    left: 370px;
+    top: 0px;
+    margin-top: 385px;
+}
+.septième_produit{
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    margin-top: 385px;
+}
+.huitième_produit{
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+    margin-top: 385px;   
+}
+.neuvième_produit{
+    margin-top: 50px;  
+}
+.dixième_produit{
+    position: absolute;
+    left: 370px;
+    top: 0px;
+    margin-top: 762px;
+}
+.onzième_produit{
+    position: absolute;
+    left: 750px;
+    top: 0px;
+    margin-top: 762px;
+}
+.douzième_produit{
+    position: absolute;
+    left: 1110px;
+    top: 0px;
+    margin-top: 762px;   
+}
+
+
+/*FOOTER*/
+.footer
+{
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px 20px;
+        background-color: dimgrey;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+/**/
+h5
+{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    padding: 30px 30px;
+        background-color: dimgrey;
+    color: aqua;
+    border-radius: 25px;
+}
+ .header{
+    position: fixed;
+    text-align: center;
+    padding: 20px 20px;
+  background-color: dimgrey;
+    font-size: 20px;
+    border-radius: 15px;
+   width: 97%;
+   margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+   
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    float: left;
+}
+h3{
+    float: right;
+}
+nav{
+    text-align: center;
+}
+ 
+
+	

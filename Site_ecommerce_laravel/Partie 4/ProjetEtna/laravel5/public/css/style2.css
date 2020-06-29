@@ -1,0 +1,52 @@
+.bouton{
+    padding: 10px 30px; 
+    background: rgb(218, 31, 218); 
+    color: pink; 
+    }
+
+.bouton:hover {
+    background: blue; 
+    }
+
+#Description {
+    vertical-align: top;
+    height: 150px;
+    width: 500px;
+}
+
+input:invalid+span:after {
+    position: absolute; content:':-(';
+    padding-left: 5px;
+}
+      
+input:valid+span:after {
+    position: absolute;
+    content: ':-)';
+    padding-left: 5px;
+}
+
+.champ {
+    height: 20px;
+    width: 40px;
+}
+
+body {
+  text-align: center;
+  background-color: #FE9A2E
+}   
+
+#tableau_p {
+  margin:auto;
+  padding:7px;
+}
+ 
+#imageF {
+  position: absolute;
+  left:1px;
+}
+th#gpt{
+  height: 60px;
+}
+th{
+width:182px;
+}
